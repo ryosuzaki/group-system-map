@@ -1,0 +1,25 @@
+{
+    "name": "ryosuzaki/group-system-location",
+    "description": "Laravel GroupSystem パッケージ開発 location",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {"GroupSystem\\Location\\": "src/"}
+    },
+    "homepage": "https://github.com/ryosuzaki/group-system-location",
+    "authors": [
+        {
+            "name": "ryosuzaki",
+            "email": "email@email",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GroupSystem\\Location\\LocationServiceProvider"
+            ]
+        }
+    }
+}
